@@ -1,0 +1,124 @@
+This form is related to hospital admit form.
+<html>
+<head>
+<title>website</title>
+      <style>
+a{
+    color:blueviolet;
+}
+.nav{
+    background-color:rgb(255, 248, 220);
+    border: 5px dashed rgb(36, 39, 219);
+    font-size: xx-large;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Algerian;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: azure;
+    font-family: Algerian;
+    border: 10px  dashed rgb(209, 99, 132);
+    border-radius: 30px;
+} 
+a{
+    color:blueviolet;
+}
+body{
+    background-color:darkslategrey ;
+}
+.admit{
+    color: aliceblue;
+    border: 10px outset rgba(87, 86, 86, 0.425);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+width: max-content;
+text-align: center;
+margin-left: 400px;
+ background-color: black;
+    border-radius: 30px;
+}
+
+
+      
+
+     </style>
+</head>
+<body>
+<div class="nav">
+     <a href="main.html">main</a> &nbsp &nbsp
+     <a href="about.html">about</a> &nbsp &nbsp
+     <a href="patientlist.html">patientlist</a> &nbsp &nbsp
+     <a href="Admit form.html">admit form</a> &nbsp &nbsp
+</div>
+<h1>Admit Form</h1>
+<div class="admit">
+     <form>
+          <label for="name">Patient name:</label>
+          <input type="text" id="name"> <br><br>
+          <label for="Address">Address:</label>
+         <textarea  id="Address"></textarea> <br><br>
+         <label>Select Your Gender:</label>
+          <input type="radio" id="male"name="Gender">
+          <label for="male">Male</label>
+           <input type="radio" id="female"name="Gender">
+          <label for="female">Female</label>
+           <input type="radio" id="other"name="Gender">
+          <label for="other">Other</label><br><br>
+          <label>Select Your Disease:</label>
+          <select name="Disease">
+               <option value="select">-select-</option>
+               <option value="Cancer">Cancer</option>
+                <option value="brain Hamrage">Brain Hamrage</option>
+                 <option value="Tuberculosis">Tuberculosis</option>
+                  <option value="Chicken"> Chicken Pox</option>
+                   <option value="Malaria"> Malaria</option>
+                    <option value="Diphtheria">Diphtheria</option>
+                     <option value="HIV">HIV</option>
+                     <option value="Typhoid">Typhoid</option>
+                     <option value="Tetanus">Tetanus</option>
+                     <option value="Common">Common cold</option>
+          </select><br><br>
+          <label for="email">Email:</label>
+          <input type="Email"id="email"><br><br>
+          <label for="number">Phone number:</label>
+          <input type="text"id="number"><br><br>
+          <label for="date">DOB:</label>
+          <input type="Date"id="date"><br><br>
+         <button type="Submit">Submit</button>&nbsp &nbsp
+          <button type="reset">Reset</button>
+
+          
+          
+          
+          
+          
+          
+
+      
+                     
+
+          
+
+          
+
+          
+          
+
+
+
+          
+
+         
+     </form>
+
+ 
+  
+ 
+ 
+
+
+</body>
+</html>
